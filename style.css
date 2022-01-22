@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+}
+
+.img-container-1, 
+.img-container-2{
+    filter: contrast(120%);
+    position: absolute;
+    width: 70vw;
+    height: 80vh;
+}
+
+.img-container-2{
+    width: 69vh;
+    overflow: hidden;
+}
+
+img{
+    width: 70vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.slider{
+    width: 0.3rem;
+    background-color: white;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
